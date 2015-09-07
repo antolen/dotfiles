@@ -1,7 +1,5 @@
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
-source $HOME/.pythonbrew/etc/bashrc
-source ~/.rvm/scripts/rvm
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
@@ -55,6 +53,3 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 export PATH=$PATH:/Users/antonlen/.pythonbrew/bin:/Users/antonlen/.pythonbrew/pythons/Python-2.7.3/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
-eval "$(pyenv init -)"
-
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting

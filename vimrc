@@ -27,27 +27,28 @@ syntax on
 set nocompatible               " be iMproved
 filetype off                   " required!
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
 " let Vundle manage Vundle
 " required for Vundle!
-Bundle 'gmarik/vundle'
-Bundle 'tomasr/molokai'
-Bundle 'scroloose/nerdcommenter'
-Bundle 'tpope/vim-unimpaired'
-Bundle 'tpope/vim-haml'
-Bundle 'mileszs/ack.vim'
-Bundle 'kchmck/vim-coffee-script'
-Bundle 'Glench/Vim-Jinja2-Syntax'
-Bundle 'saikobee/vim-javascript-syntax'
-Bundle 'kien/ctrlp.vim'
-Bundle 'tpope/vim-surround'
-Bundle 'itchyny/lightline.vim'
-Bundle 'bronson/vim-trailing-whitespace'
-Bundle 'scrooloose/nerdtree'
-Bundle 'sukima/xmledit'
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'tomasr/molokai'
+Plugin 'scroloose/nerdcommenter'
+Plugin 'tpope/vim-unimpaired'
+Plugin 'tpope/vim-haml'
+Plugin 'mileszs/ack.vim'
+Plugin 'kchmck/vim-coffee-script'
+Plugin 'Glench/Vim-Jinja2-Syntax'
+Plugin 'saikobee/vim-javascript-syntax'
+Plugin 'kien/ctrlp.vim'
+Plugin 'tpope/vim-surround'
+Plugin 'itchyny/lightline.vim'
+Plugin 'bronson/vim-trailing-whitespace'
+Plugin 'scrooloose/nerdtree'
+Plugin 'sukima/xmledit'
 
+call vundle#end()
 filetype plugin indent on "required for Vundle
 
 
